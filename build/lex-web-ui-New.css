@@ -1492,6 +1492,26 @@
         caret-color: #0d47a1 !important;
     }
 
+    /*Added news color code for sparrow*/
+.blue.sparrow-1 {
+    background-color: #429BE5 !important;
+    border-color: #429BE5 !important;
+    color:#FFFFFF
+}
+
+.blue.sparrow-1--after:after {
+    background-color: #429BE5 !important;
+}
+
+.blue--text.text--sparrow-1 {
+    color: #429BE5 !important;
+}
+
+    .blue--text.text--sparrow-1 input,
+    .blue--text.text--sparrow-1 textarea {
+        caret-color: #429BE5 !important;
+    }
+
 .blue.accent-1 {
     background-color: #82b1ff !important;
     border-color: #82b1ff !important;
@@ -6690,7 +6710,7 @@ p {
 
     .theme--light .btn:not(.btn--icon):not(.btn--flat),
     .application .theme--light.btn:not(.btn--icon):not(.btn--flat) {
-        background-color: #f5f5f5;
+        background-color: #056591;
     }
 
 .theme--dark .btn,
@@ -6775,7 +6795,8 @@ p {
     -ms-flex-align: center;
     align-items: center;
     border-radius: inherit;
-    color:darkorange;
+    /*changed text color of Buttons*/
+    color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -6798,9 +6819,11 @@ p {
 }
 /** Types */
 .btn--flat {
-    background-color: transparent !important;
+    background-color: #429BE5 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+    height:75px;
+    width:150px;
 }
 
 .btn:not(.btn--depressed) {
@@ -14145,7 +14168,7 @@ table.table {
 
 .theme--dark .toolbar,
 .application .theme--dark.toolbar {
-    background-color: #212121;
+    background-color: #429BE5;
     color: #fff;
 }
 

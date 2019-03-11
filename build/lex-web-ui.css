@@ -27,18 +27,20 @@
     -ms-flex-item-align:start;
     align-self:flex-start;
     margin-right:4px}
-.message-bubble[data-v-46cd8705]{
-    border-radius:24px;
-    display:-webkit-inline-box;
-    display:-ms-inline-flexbox;
-    display:inline-flex;
-    font-size:calc(1em + .25vmin);
-    padding:0 12px;
-    width:-webkit-fit-content;
-    width:-moz-fit-content;
-    width:fit-content;
-    -ms-flex-item-align:center;
-    align-self:center}
+.message-bubble[data-v-46cd8705] {
+    border-radius: 2px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: calc(1em + .25vmin);
+    padding: 0 12px;    
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -ms-flex-item-align: center;
+    align-self: center;
+    height:84px
+}
 .focusable[data-v-46cd8705]{
     -webkit-box-shadow:0 .25px .75px rgba(0,0,0,.12),0 .25px .5px rgba(0,0,0,.24);
     box-shadow:0 .25px .75px rgba(0,0,0,.12),0 .25px .5px rgba(0,0,0,.24);
@@ -51,11 +53,12 @@
     outline:none}
 .message-bot .message-bubble[data-v-46cd8705] {
     /*for BOT response/*/
-    background-color: #b710b7
+    background-color: #f2f2f2
 }
 .message-human .message-bubble[data-v-46cd8705] {
     /*for user response/*/
-    background-color: #511cbc
+    background-color: #213742;
+    color: #f2f2f2;
 }
 .dialog-state[data-v-46cd8705]{
     display:-webkit-inline-box;
@@ -77,19 +80,21 @@
     -ms-hyphens:auto;
     hyphens:auto;
     overflow-wrap:break-word;
-    padding:.8em;
+    padding:1.5em;
     white-space:normal;
-    word-break:break-word}
+    word-break:break-word
+}
 .card[data-v-68d77481] {
     width: 75vw;
     position: inherit;
     padding-bottom: .5em;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    background-color: #23602d!important
+    /*Card color*/
+    background-color: #f2f2f2 !important;
 }
 .card__title[data-v-68d77481] {
-    background-color: #b5a820!important;
+    background-color: #429BE5 !important;
     padding: .5em;
     padding-top: .75em
 }
