@@ -33,16 +33,13 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: calc(1em + .25vmin);
-    padding: 0 12px;
-    height: 84px;
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
+    padding: 0 12px;    
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     -ms-flex-item-align: center;
-    align-self: center
+    align-self: center;
+    height:84px
 }
 .focusable[data-v-46cd8705]{
     -webkit-box-shadow:0 .25px .75px rgba(0,0,0,.12),0 .25px .5px rgba(0,0,0,.24);
@@ -83,9 +80,10 @@
     -ms-hyphens:auto;
     hyphens:auto;
     overflow-wrap:break-word;
-    padding:.8em;
+    padding:1.5em;
     white-space:normal;
-    word-break:break-word}
+    word-break:break-word
+}
 .card[data-v-68d77481] {
     width: 75vw;
     position: inherit;
