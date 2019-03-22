@@ -6796,7 +6796,7 @@ p {
     align-items: center;
     border-radius: inherit;
     /*changed text color of Buttons*/
-    color: #ffffff;
+    /*color: #ffffff;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -6822,8 +6822,8 @@ p {
     background-color: #429BE5 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    height:75px;
-    width:150px;
+    height:80px;
+    width:160px;
 }
 
 .btn:not(.btn--depressed) {

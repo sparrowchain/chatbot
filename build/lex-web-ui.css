@@ -39,7 +39,7 @@
     width: fit-content;
     -ms-flex-item-align: center;
     align-self: center;
-    height:84px
+    height:auto
 }
 .focusable[data-v-46cd8705]{
     -webkit-box-shadow:0 .25px .75px rgba(0,0,0,.12),0 .25px .5px rgba(0,0,0,.24);
