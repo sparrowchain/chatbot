@@ -6695,7 +6695,7 @@ p {
 
     .theme--light .btn.btn--disabled,
     .application .theme--light.btn.btn--disabled {
-        color: rgba(0,0,0,0.26) !important;
+        /*color: rgba(0,0,0,0.26) ;*/
     }
 
         .theme--light .btn.btn--disabled .icon,
@@ -6823,7 +6823,7 @@ p {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     height:80px;
-    width:160px;
+    width:168px;
 }
 
 .btn:not(.btn--depressed) {
